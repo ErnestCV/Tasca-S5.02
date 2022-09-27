@@ -1,6 +1,23 @@
 # Tasca-S5.02
 Joc de Daus
 
+## Instruccions
+
+Perquè funcioni correctament el programa, primer cal inicialitzar les bases de dades de MongoDB i MySQL.
+
+### MongoDB
+
+Des de la shell de mongo: 
+
+```
+use jocdaus
+db.roles.insert({[name: "ROLE_USER", name: "ROLE_ADMIN"]})
+```
+
+###MySQL
+
+Cal executar l'script de creació de la base de dades que es troba a main/java/resorces
+
 ## Recull d'enllaços útils
 
 ### Security / JWT
