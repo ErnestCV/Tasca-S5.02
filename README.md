@@ -16,7 +16,7 @@ db.roles.insertMany([{name: "ROLE_USER"}, {name: "ROLE_ADMIN"}])
 
 ### MySQL
 
-Cal executar l'script de creació de la base de dades que es troba a main/java/resources
+Cal executar l'script de creació de la base de dades que es troba a src/main/resources
 
 ## Recull d'enllaços útils
 
