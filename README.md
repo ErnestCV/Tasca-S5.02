@@ -14,7 +14,7 @@ use jocdaus
 db.roles.insert({[name: "ROLE_USER", name: "ROLE_ADMIN"]})
 ```
 
-###MySQL
+### MySQL
 
 Cal executar l'script de creació de la base de dades que es troba a main/java/resorces
 
