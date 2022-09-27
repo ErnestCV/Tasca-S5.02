@@ -11,7 +11,7 @@ Des de la shell de mongo:
 
 ```
 use jocdaus
-db.roles.insertMany([name: "ROLE_USER"}, {name: "ROLE_ADMIN"])
+db.roles.insertMany([{name: "ROLE_USER"}, {name: "ROLE_ADMIN"}])
 ```
 
 ### MySQL
